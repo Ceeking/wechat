@@ -1,0 +1,23 @@
+/* pages/upload/upload.wxss */
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: space-around;
+}
+.item{
+  display: flex;
+  justify-content: space-around;
+
+}
+image
+{
+  height: 550rpx;
+  width: 550rpx;
+
+}
+button
+{
+  height: 115rpx;
+  width: 200rpx;
+}

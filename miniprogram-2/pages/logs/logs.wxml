@@ -1,0 +1,5 @@
+<!--logs.wxml-->
+<view class="demo-box">
+  <button type="primary" bindtap="history">查看历史记录</button>
+  <button type="primary" bindtap="history">反馈</button>
+</view>

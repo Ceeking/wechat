@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/upload/upload",
+    "pages/result/result"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFDAB9",
+    "navigationBarTitleText": "猕猴桃",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#CD5C5C",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/data/ic_menu_choice_nor.png",
+        "selectedIconPath": "pages/data/ic_menu_choice_pressed.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "pages/data/ic_menu_me_nor.png",
+        "selectedIconPath": "pages/data/ic_menu_me_pressed.png"
+      }
+    ]
+  }
+}

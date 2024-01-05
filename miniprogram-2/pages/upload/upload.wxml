@@ -1,0 +1,15 @@
+<!--pages/upload/upload.wxml-->
+<view class="menu">
+<view class="item">
+  <text >\n请点击图片进行选择，\n再次点击可重新选择。\n\n</text>
+</view>
+<view class="item">
+  <image class="search" wx:if="{{imageList}}" src="{{imageList}}" bindtap="uploadImage"></image>
+</view>
+<view><text>\n</text></view>
+<view class="item">
+  <button type="primary" bindtap="request">上传</button>
+</view>
+</view>
+
+

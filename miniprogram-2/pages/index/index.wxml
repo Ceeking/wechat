@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<text>\n\n\n\n\n\n</text>
+<view class="demo-box">
+    <image wx:if="{{src}}" src="{{src}}" mode="aspectFit"></image>
+    <button type="primary" bindtap="clickme">上传</button>
+    <text>\n</text>
+    <button type="primary" bindtap="reset">重置</button>
+    <text>\n</text>
+    <button type="primary" bindtap="reset">反馈</button>
+  </view>

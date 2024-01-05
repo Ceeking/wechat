@@ -1,0 +1,5 @@
+<!--pages/result/result.wxml-->
+<text class="container">识别的结果如下</text>
+<view class="container">
+  <image class="image" src="{{imageList}}" bindtap="Download"></image>
+</view>
